@@ -1,0 +1,155 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bungee&family=Roboto+Mono&display=swap');
+.gitpic {
+    width: 200px;
+height: auto;
+}
+
+.divpic{
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+background-color: white;
+   
+}
+.descBorder
+{
+
+  padding-right: 16px;
+}
+.cardDesc{
+  width: 200px;
+  height: auto;
+  text-align: center;
+  font-family: 'Roboto Mono';
+  font-size: 12px;
+}
+.linkDesc{
+  text-decoration: none;
+  color: black;
+}
+.linkDesc a:visited {
+  text-decoration: none;
+  color: black;
+}
+.projects{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contact{
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.portfolioImage{ 
+  width: 125px;
+  height: 125px;
+  border-Radius: 75px;
+
+}
+
+.maintext {
+font-family: 'Roboto Mono';
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+}
+
+.title
+{
+  font-family: 'Bungee' , sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+}
+
+.navbar {
+  left: 0px;
+  overflow: hidden;
+  border-radius: 1px;
+  background-image: linear-gradient(to right,#333,#7f868a);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.navbar a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.main {
+  margin-top: 60px; /* Add a top margin to avoid content overlay */
+}
+.footing{
+  left: 0px;
+  overflow: hidden;
+  background-color: #333;
+  background-image: linear-gradient(#333,#7f868a);
+  position: fixed; 
+  bottom:  0; 
+  width: 100%; 
+}
+
+
+.footing p{
+ 
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+
+}
+
+
+.skillSection{
+  text-align: center;
+}
+
+
+.skillTitle
+ {
+  font-family: 'Bungee' , sans-serif;
+margin-bottom: 0px;
+margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+ }
+
+.listLine{
+display: inline-block;
+text-align: left;
+  padding-left: 16px;
+  padding-right:16px ;
+
+}
+.listItem{
+  font-family: 'Roboto Mono';
+  font-size: 13px;
+}
