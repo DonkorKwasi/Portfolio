@@ -3,4 +3,6 @@ body{
    background-image: 
    linear-gradient(to right, #f0f3f7, transparent 1px),
    linear-gradient(to bottom, #f0f3f7, transparent 1px);
+   margin-bottom: 70px;
+   margin-top: 70px;
 }

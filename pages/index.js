@@ -28,7 +28,6 @@ const [aHover, setAHover] = useState(false);
         
         
       </Head>
-      
      <div className={styles.title}>
      <h1>About Kwasi Donkor:</h1>
      </div>

@@ -1,0 +1,42 @@
+.container{
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+ border-style: solid;
+ margin-bottom: 30px;
+}
+
+
+
+.buttonCont{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+.buttonFloat{
+ width: 300px;
+
+}
+.widepic
+{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+
+.smallpic
+{
+    width: 600px;
+    height: 100%;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+}
+.text{
+    text-align: center;
+}
