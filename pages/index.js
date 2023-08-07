@@ -39,9 +39,10 @@ const [aHover, setAHover] = useState(false);
 
      <div className={styles.maintext}>
      <p>My name is Kwasi Donkor and i am a full stack web developer who has just graduated from Seneca Computer programming analysis program
-      During my time at Seneca i have learned many various aspects software development and programming languages  But I have enjoyed learning about  web developing the best. 
+      During my time at Seneca I have learned many various aspects of software development and programming languages  But I have enjoyed learning about  web developing the best.
       I First learned how to create websites using HTML, CSS ,js and Node
-      I then learned about  developing front end web aplications on Frameworks like angular and react.
+      I then learned about  developing front end web applications on Frameworks like Angular and react.
+
 
 
      </p>
@@ -79,7 +80,9 @@ const [aHover, setAHover] = useState(false);
  
  <a className={styles.linkDesc} href="https://spotifystats-donkorkwasi.vercel.app/" target='_blank'>
 <Image  src={sstats} className={styles.gitpic}   ></Image>
-<p className={styles.cardDesc}>This project uses the spotify api to allow users to search for indepth information about any song on spotify. This app is made in angular</p>
+<p className={styles.cardDesc}>Here you can see the repositories for the projects mentioned on this page and anything else I am currently working on.
+This project uses the spotify api to allow users to search for in depth information about any song on spotify. This app is made with Next.js
+</p>
 </a>
 
 </motion.div>
@@ -95,7 +98,7 @@ const [aHover, setAHover] = useState(false);
  
  <a className={styles.linkDesc} href="https://vercel-metropolitan.vercel.app/" target='_blank'>
 <Image  src={aart} className={styles.gitpic}   ></Image>
-<p className={styles.cardDesc}>This project uses an api that I have created to allow for user to search for interesting antique art. This site is made in React</p>
+<p className={styles.cardDesc}>This project consumes a public api and an api that I have created to allow for users to search for interesting antique art. This app is made in React</p>
 </a>
 
 </motion.div>
