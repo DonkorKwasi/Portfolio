@@ -23,7 +23,7 @@ setHover3(true);
 setHover1(true);
         }}  onHoverEnd={()=> {
                 setHover1(false)
-        }}href='/projectBreakdown'>project breakdown</motion.a>
+        }}href='/projectBreakdown'>Project Breakdown</motion.a>
     
      
        <motion.a animate ={{backgroundColor: hover2? 'darkgray':'#333', backgroundColor: !hover2? '#333':'darkgray'  }} initial={{backgroundcolor : '#333'} } onHoverStart={ ()=>

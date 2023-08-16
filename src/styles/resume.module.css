@@ -1,0 +1,14 @@
+.res{
+    margin: auto;
+    width: 1700px
+}
+
+.title{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.fnt{
+    font-family: 'Bungee' , sans-serif;
+}

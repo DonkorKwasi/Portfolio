@@ -30,13 +30,7 @@ return(
     </motion.div>
     </div>
     <Image src={metpic} className={styles.widepic}></Image>
-    <p className={styles.text}>This is a next.js app that is based off of  information from the metropolitan Museum of art based
-      in New york. My app consumes an api called the Met Museum of Art Collection to acquire the data about the art housed in the museum. To start accessing the features on my app a user must first create an account.
-      The backend of my app is handled by an express api and a MongoDb database. The express api handles the communication between the Front and and backend of my app and the Mongo database stores
-      users information, the back end of the app is deployed on a service called Render. I am utilising JSON Web Tokens for authorization on login to ensure only authorised users can use specific routes on the app. All stored user passwords are also hashed for extra protection of user data.
-      with an account users are able to search for art pieces and add specific art pieces they enjoy to a collection of favorites.The site also tracks all searches that a user makes and saves it in their history so that they can easily go back
-      to any previous search they have made. I've placed this app on my portfolio to show my ability to work with both the front end and back end aspects of Web Development
-</p>
+    <p className={styles.text}>This is a next.js app that is based on information from the Metropolitan Museum of art based in New york. My app consumes an api called the Met Museum of Art Collection to acquire the data about the art housed in the museum. To start accessing the features on my app a user must first create an account. The backend of my app is handled by an express api and a MongoDb database. The express api handles the communication between the Front and and backend of my app and the Mongo database stores users information, the back end of the app is deployed on a service called Render. I am utilising JSON Web Tokens for authorization on login to ensure only authorised users can use specific routes on the app. All stored user passwords are also hashed for extra protection of user data. With an account users are able to search for art pieces and add specific art pieces they enjoy to a collection of favorites.The site also tracks all searches that a user makes and saves it in their history so that they can easily go back to any previous search they have made. I have placed this app on my portfolio to show my ability to work with both the front end and back end aspects of Web Development</p>
       </div>
 
       <div className={styles.container}>

@@ -1,11 +1,25 @@
 import Navbar from "components/NavBar"
 import Footing from "components/Footing"
+import styles from "../src/styles/resume.module.css"
 function contact()
 {
 return(
 <>
 <Navbar></Navbar>
-<Footing></Footing>
+<div className={styles.title}>
+<h1 className={styles.fnt}>My resume</h1>
+</div>
+<div className={styles.res}>
+<object
+type="application/pdf"
+data='Kwasis_Resume.docx.pdf'
+width='1700'
+height='2200'
+
+>
+    
+</object>
+</div>
 </>
 
 )

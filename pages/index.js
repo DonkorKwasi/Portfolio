@@ -38,13 +38,7 @@ const [aHover, setAHover] = useState(false);
      &nbsp;
 
      <div className={styles.maintext}>
-     <p>My name is Kwasi Donkor and i am a full stack web developer who has just graduated from Seneca Computer programming analysis program
-      During my time at Seneca I have learned many various aspects of software development and programming languages  But I have enjoyed learning about  web developing the best.
-      I First learned how to create websites using HTML, CSS ,js and Node
-      I then learned about  developing front end web applications on Frameworks like Angular and react.
-
-
-
+     <p>My name is Kwasi Donkor and I am a full stack web developer who has just graduated from Seneca Computer programming analysis program. During my time at Seneca I have learned many various aspects of software development and programming languages But I have enjoyed learning about web developing the best. I First learned how to create websites using HTML, CSS ,js and Node. I then learned about developing front end web applications on Frameworks like Angular and react.
      </p>
 
      <p >
@@ -80,8 +74,7 @@ const [aHover, setAHover] = useState(false);
  
  <a className={styles.linkDesc} href="https://spotifystats-donkorkwasi.vercel.app/" target='_blank'>
 <Image  src={sstats} className={styles.gitpic}   ></Image>
-<p className={styles.cardDesc}>Here you can see the repositories for the projects mentioned on this page and anything else I am currently working on.
-This project uses the spotify api to allow users to search for in depth information about any song on spotify. This app is made with Next.js
+<p className={styles.cardDesc}>This project uses the spotify api to allow users to search for in depth information about any song on spotify. This app is made with Next.js
 </p>
 </a>
 
