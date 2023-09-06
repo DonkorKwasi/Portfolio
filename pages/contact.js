@@ -12,7 +12,7 @@ return(
 <div className={styles.res}>
 <object
 type="application/pdf"
-data='Kwasis_Resume.docx.pdf'
+data='Kwasi_Resume.pdf'
 width='1700'
 height='2200'
 
