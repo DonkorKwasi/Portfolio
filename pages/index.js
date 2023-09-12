@@ -31,8 +31,10 @@ const [aHover, setAHover] = useState(false);
      <div className={styles.title}>
      <h1>About Kwasi Donkor:</h1>
      </div>
-     <div className={styles.projects}>
+   
+      <div className={styles.pcon}>
      <Image src ={pPic} className={styles.portfolioImage} ></Image>
+     </div>
      </div>
      &nbsp;
      &nbsp;
@@ -99,13 +101,13 @@ const [aHover, setAHover] = useState(false);
 </div>
 
 </div>
-</div>
+
+
+<div className={styles.skillSection}>
+  
 <div >
 <h2 className={styles.skillTitle}>Skills:</h2>
 </div>
-<div className={styles.skillSection}>
-  
-
 <ul className={styles.listLine}>
   <li className={styles.listItem}>Html</li>
   <li className={styles.listItem}>Css</li>
