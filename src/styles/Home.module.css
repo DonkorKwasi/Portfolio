@@ -174,3 +174,29 @@ text-align: left;
   font-family: 'Roboto Mono';
   font-size: 13px;
 }
+
+
+@media only screen and  (max-width: 653px) { 
+
+  .divpic{
+    width: 140px;
+    height: 150px;
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+background-color: white;
+  }
+
+.gitpic{
+  width: 140px;
+}
+
+.cardDesc{
+  width: 140px;
+  height: auto;
+  text-align: center;
+  font-family: 'Roboto Mono';
+  font-size: 10px;
+}
+ }
